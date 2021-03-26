@@ -504,6 +504,125 @@ h4 {
   padding-right: 15px;
 }
 
+.client-logo {
+  margin-right: 30px;
+  background-color: #ffffff;
+  width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.logo-ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.client-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  background-color: #ffffff;
+  margin-right: 30px;
+  margin-top: 50px;
+  border: 1px solid #afb1b8;
+  fill: var(--text-a);
+  border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client-link:focus,
+.client-link:hover {
+  fill: rgba(33, 150, 243, 1);
+  border: 1px solid rgba(33, 150, 243, 1);
+  cursor: pointer;
+}
+
+.section-team {
+  background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.conteiner-team {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 94px;
+}
+
+.team-item {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  flex-basis: calc(100% / 4 - 30px);
+}
+
+.team-img {
+  margin-right: 30px;
+}
+
+.team {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+
+  color: var(--nav-text);
+}
+
+.team-name {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  margin-top: 30px;
+  padding: auto;
+
+  color: var(--nav-text);
+}
+
+.team-p {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: auto;
+
+  color: var(--grey-text01);
+}
+
+.section-client {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.conteiner-client {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .client-log {
   margin-right: 30px;
   background-color: #ffffff;
@@ -1033,7 +1152,7 @@ h4 {
 
 /* text */
 
-.hero-title {
+.hero__title {
   display: block;
   margin-bottom: 10px;
   padding: 0;
@@ -1046,7 +1165,7 @@ h4 {
   color: var(--nav-text);
 }
 
-.hero-label {
+.hero__label {
   position: relative;
   display: block;
   margin-bottom: 4px;
@@ -1060,7 +1179,7 @@ h4 {
   color: var(--modal-text);
 }
 
-.hero-input {
+.hero__input {
   margin-bottom: 10px;
   padding-bottom: 0;
   width: 448px;
@@ -1072,17 +1191,17 @@ h4 {
   border-radius: 4px;
 }
 
-.hero-input:focus + .hero-icon {
+.hero__input:focus + .hero__icon {
   fill: var(--blue-text);
 }
 
-.hero-input:hover,
-.hero-input:focus {
+.hero__input:hover,
+.hero__input:focus {
   border: 1px solid var(--blue-text);
   outline: var(--blue-text);
 }
 
-.hero-textarea {
+.hero__textarea {
   width: 448px;
   height: 120px;
   padding-top: 12px;
@@ -1100,39 +1219,39 @@ h4 {
   border-radius: 4px;
 }
 
-.hero-textarea:hover,
-.hero-textarea:focus {
+.hero__textarea:hover,
+.hero__textarea:focus {
   border: 1px solid var(--blue-text);
   outline: var(--blue-text);
 }
 
-.hero-icon {
+.hero__icon {
   position: absolute;
   left: 12px;
   bottom: 11px;
   top: 11px;
 }
 
-.hero-list:hover,
-.hero-list:focus {
+.hero__list:hover,
+.hero__list:focus {
   fill: var(--blue-text);
 }
 
-.hero-list {
+.hero__list {
   position: relative;
   padding: 0;
   margin: 0;
   cursor: pointer;
 }
 
-.hero-form {
+.hero__form {
   padding-top: 39px;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
 }
 
-.hero-submit {
+.hero__submit {
   display: inline-block;
   margin-top: 30px;
   width: 200px;
@@ -1145,11 +1264,11 @@ h4 {
   cursor: pointer;
 }
 
-.hero-checkbox-label a {
+.hero__check a {
   color: var(--blue-text);
 }
 
-.hero-checkbox-label {
+.hero__check {
   display: inline-block;
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -1161,11 +1280,11 @@ h4 {
   cursor: pointer;
 }
 
-.hero-botom {
+.hero__botom {
   margin-top: 17px;
 }
 
-.hero-span {
+.hero__span {
   display: inline-block;
   margin-left: 15px;
   width: 16px;
@@ -1175,7 +1294,7 @@ h4 {
   cursor: pointer;
 }
 
-.hero-checkbox:checked + .hero-span {
+.hero__checkbox:checked + .hero__span {
   border: var(--blue-text);
   background-color: var(--blue-text);
   background-image: url(../images/Vector-7-2.svg);
@@ -1184,11 +1303,11 @@ h4 {
   background-size: contain;
 }
 
-.hero-checkbox {
+.hero__checkbox {
   display: none;
 }
 
-.hero-open {
+.hero__open {
   display: inline-b;
   height: 24px;
   margin-top: 20px;
