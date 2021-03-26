@@ -159,9 +159,7 @@ ul {
 .header__link.current {
   color: #2196f3;
 }
-
-.header__link:hover,
-.header__link:focus {
+.header__link.current:hover, .header__link.current:focus {
   color: #2196f3;
   cursor: auto;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -197,9 +195,7 @@ ul {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.header__a:hover,
-.header__a:focus {
+.header__a:hover, .header__a:focus {
   color: #2196f3;
 }
 
@@ -252,9 +248,7 @@ ul {
   text-align: center;
   border: none;
 }
-
-.section__button:hover,
-.section__button:focus {
+.section__button:hover, .section__button:focus {
   background: #2196f3;
   color: white;
 }
@@ -542,9 +536,7 @@ h4 {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.team__link:hover,
-.team__link:focus {
+.team__link:hover, .team__link:focus {
   background-color: #2196f3;
   fill: #ffffff;
   cursor: pointer;
@@ -584,9 +576,7 @@ h4 {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.client__link:focus,
-.client__link:hover {
+.client__link:focus, .client__link:hover {
   fill: #2196f3;
   border: 1px solid #2196f3;
   cursor: pointer;
@@ -710,16 +700,14 @@ h4 {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer__link:hover, .footer__link:focus {
+  background-color: #2196f3;
+  cursor: pointer;
+}
 
 .team__footer {
   display: block;
   padding-top: 12px;
-}
-
-.footer__link:hover,
-.footer__link:focus {
-  background-color: #2196f3;
-  cursor: pointer;
 }
 
 .team__footer {
@@ -850,9 +838,7 @@ h4 {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal__svg:hover,
-.modal__svg:focus {
+.modal__svg:hover, .modal__svg:focus {
   fill: #2196f3;
 }
 
@@ -893,13 +879,10 @@ h4 {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
-
 .hero__input:focus + .hero__icon {
   fill: #2196f3;
 }
-
-.hero__input:hover,
-.hero__input:focus {
+.hero__input:focus + .hero__icon:hover, .hero__input:focus + .hero__icon:focus {
   border: 1px solid #2196f3;
   outline: #2196f3;
 }
@@ -921,9 +904,7 @@ h4 {
   resize: none;
   border-radius: 4px;
 }
-
-.hero__textarea:hover,
-.hero__textarea:focus {
+.hero__textarea:hover, .hero__textarea:focus {
   border: 1px solid #2196f3;
   outline: #2196f3;
 }
@@ -935,16 +916,14 @@ h4 {
   top: 11px;
 }
 
-.hero__list:hover,
-.hero__list:focus {
-  fill: #2196f3;
-}
-
 .hero__list {
   position: relative;
   padding: 0;
   margin: 0;
   cursor: pointer;
+}
+.hero__list:hover, .hero__list:focus {
+  fill: #2196f3;
 }
 
 .hero__form {

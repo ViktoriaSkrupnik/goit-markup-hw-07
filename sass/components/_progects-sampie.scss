@@ -1,14 +1,14 @@
 .team__a {
   position: relative;
   text-decoration: none;
-}
 
-.team__a:focus,
-.team__a:hover {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  cursor: pointer;
+  &:focus,
+  &:hover {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    cursor: pointer;
+  }
 }
 
 .conteiner__team {
@@ -61,13 +61,13 @@
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.progects__sampie:hover,
-.progects__sampie:focus {
-  color: $white-text;
-  background-color: $blue-text;
-  cursor: pointer;
+  &:hover,
+  &:focus {
+    color: $white-text;
+    background-color: $blue-text;
+    cursor: pointer;
+  }
 }
 
 .team__text {

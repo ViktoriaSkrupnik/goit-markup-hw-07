@@ -88,16 +88,11 @@
 }
 
 .logo__footer {
-  // display: flex;
   padding: 0px;
   @extend %centeredFlex;
-
-  // justify-content: center;
-  // align-items: center;
 }
 
 .footer__link {
-  //
   @extend %centeredFlex;
   background-color: var(--logo-footer);
   color: $white-text;
@@ -107,17 +102,17 @@
   margin-right: 10px;
   margin-top: 0px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $blue-text;
+    cursor: pointer;
+  }
 }
 
 .team__footer {
   display: block;
   padding-top: 12px;
-}
-
-.footer__link:hover,
-.footer__link:focus {
-  background-color: $blue-text;
-  cursor: pointer;
 }
 
 .team__footer {

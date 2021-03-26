@@ -39,12 +39,12 @@
   border-radius: 4px;
   text-align: center;
   border: none;
-}
 
-.section__button:hover,
-.section__button:focus {
-  background: $blue-text;
-  color: $white-text;
+  &:hover,
+  &:focus {
+    background: $blue-text;
+    color: $white-text;
+  }
 }
 
 .section__hero .section__button {
